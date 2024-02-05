@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name arduino-shield)(type KiCad)(uri /home/hazen/work/multi-channel-tems/arduino-shield/mods)(options "")(descr ""))
+)

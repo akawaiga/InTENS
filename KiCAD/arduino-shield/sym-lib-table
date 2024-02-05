@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tens")(type "Legacy")(uri "${KIPRJMOD}/tens.lib")(options "")(descr ""))
+  (lib (name "ARDUINO_PRO_MINI")(type "Legacy")(uri "${KIPRJMOD}/ARDUINO_PRO_MINI.lib")(options "")(descr ""))
+  (lib (name "mctens-rescue")(type "KiCad")(uri "${KIPRJMOD}/mctens-rescue.kicad_sym")(options "")(descr ""))
+)
