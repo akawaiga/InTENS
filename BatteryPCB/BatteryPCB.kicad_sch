@@ -3106,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Value" "CT-6EP502"
+		(property "Value" "3006P-1-502LF"
 			(at 215.9 74.93 90)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Value" "CT-6EP502"
+		(property "Value" "3006P-1-502LF"
 			(at 215.9 143.51 90)
 			(effects
 				(font
