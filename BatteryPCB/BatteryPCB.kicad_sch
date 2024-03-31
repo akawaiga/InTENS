@@ -3089,6 +3089,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 215.9 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fd1f082-50ac-4b3f-9818-73ebd31cc696")
+		(property "Reference" "RV2"
+			(at 215.9 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CT-6EP502"
+			(at 215.9 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d83db71-13aa-4503-a682-1b4166ef68e8")
+		)
+		(pin "3"
+			(uuid "e1c2cdff-72dd-4679-8105-6bd1dafec1b1")
+		)
+		(pin "1"
+			(uuid "5e9aca22-a665-4af8-94e7-d04fd8d785ff")
+		)
+		(instances
+			(project "BatteryPCB"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 58.42 0)
 		(unit 1)
@@ -4123,77 +4194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 215.9 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8069bf79-d9f7-438e-b646-40ea224dc7d0")
-		(property "Reference" "RV2"
-			(at 215.9 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "93PR5KLF"
-			(at 215.9 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "93PR5KL:RES3_93_TTE"
-			(at 215.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5e4573f-e526-49b3-913f-e8642bb40b83")
-		)
-		(pin "3"
-			(uuid "04152bd5-2ec7-469c-9dda-5ae4573d03e9")
-		)
-		(pin "1"
-			(uuid "5e16bfda-0f39-45af-b0ad-00a02ff0c697")
-		)
-		(instances
-			(project "BatteryPCB"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 72.39 50.8 0)
 		(unit 1)
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Value" "93PR5KLF"
+		(property "Value" "CT-6EP502"
 			(at 215.9 143.51 90)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "93PR5KL:RES3_93_TTE"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
 			(at 215.9 137.16 0)
 			(effects
 				(font
