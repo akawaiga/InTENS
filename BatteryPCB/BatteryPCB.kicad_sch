@@ -3106,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Value" "3006P-1-502LF"
+		(property "Value" "64WR5KLF"
 			(at 215.9 74.93 90)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
+		(property "Footprint" "64WR5KLF:RES3_64W_TTE"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Value" "3006P-1-502LF"
+		(property "Value" "64WR5KLF"
 			(at 215.9 143.51 90)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
+		(property "Footprint" "64WR5KLF:RES3_64W_TTE"
 			(at 215.9 137.16 0)
 			(effects
 				(font
