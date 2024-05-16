@@ -49,7 +49,7 @@ Though with 2 PCBs we have acheives the orginal goal of creating a TENS device c
 - LCD Display:incorporate LCD display to show output frequency and amplitude and various parameter changes when changing parameters using the knob. 
 - Float type increments: currently the code uses type int for the amplitude and frequency variables, update this to type float to allow decimal increments. 
 - Safety: consult with electrical engineers to build in further safety features to ensure the device does not provide unwanted currents to the patient. 
-- Finger Clamp - update the finger clamp design to include jaws (example a claw hair clip) so it can accommodate smaller patient anatomies.
+- Finger Clamp: update the finger clamp design to include jaws (example a claw hair clip) so it can accommodate smaller patient anatomies.
 - Phantom Testing: continue developing a phantom model for the finger to demonstrate safety and efficacy.  
 
 
