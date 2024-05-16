@@ -44,7 +44,7 @@ You can compound your increments by adding multiple inputs at once. For example:
 The code currently does not support decimal point increments (float), please use integers such as “1” or “25”. 
 
 # Conclusion
-Though with 2 PCBs we have acheives the orginal goal of creating a TENS device capcable of creating a sine wave, >1kHz frequecny, and 140Vpp amplitude, we recommend the following updates to the next iteration of the device:
+Though with 2 PCBs we have acheived the orginal goal of creating a TENS device capcable of creating a sine wave, >1kHz frequecny, and 140Vpp amplitude, we recommend the following updates to the next iteration of the device:
 - Shaft Encoder:incorporate a knob to manually control frequency and amplitude rather than through the IDE. This has been done in previous versions of the device (2021-22) 
 - LCD Display:incorporate LCD display to show output frequency and amplitude and various parameter changes when changing parameters using the knob. 
 - Float type increments: currently the code uses type int for the amplitude and frequency variables, update this to type float to allow decimal increments. 
